@@ -107,7 +107,9 @@ margin-right: 100px;
    width: fit-content;
 }
 /* more feature css*/
-.more-feature{gap: 50px;}
+.more-feature{gap: 50px;
+justify-content: center;
+align-items: center;}
 .feature-details{
     flex-direction: column;
     gap: 40px;
@@ -115,12 +117,12 @@ margin-right: 100px;
 }
 .feature-details .title{
     border-left: 5px solid #FF900E;
-    padding-left:10px ;
+    padding-left:20px ;
 }
 .items{
     flex-direction: column;
     gap: 30px;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     padding: 20px;
 }
@@ -219,24 +221,25 @@ margin-right: 10px;
     font-weight: bold;
      padding: 20px 10px;
 }
-.features-container{
+.features-container,.more-feature{
  flex-direction: column;
    
 }
 .feauture-image img{
    width: 100%;
     object-fit: cover;
+    padding: 30px;
+    
 }
-.more-feature{flex-direction: column;}
-.features-image{
+
+.features-image{display: flex;
+    flex-direction: column;
     padding-right: 0px;
+    justify-content: center;
+    align-items: center;
 }
-.features-image{
-    display: grid;
-    grid-template-columns: repeat(1,auto);
-}
+
 .features-image img{
-     margin-left: 0px;
     max-width: 100%;
     height: fit-content;
 }
@@ -244,6 +247,7 @@ margin-right: 10px;
     margin-top: 6px;
     margin-left: 2px;
     width: fit-content;
+   
     
 }
 .card-container,.sponsor-container {
@@ -281,18 +285,20 @@ margin-right: 10px;
     padding: 20px;
 }
 .more-feature{flex-direction: column;}
-.features-image{
-    display: grid;
-    grid-template-columns: repeat(1,auto);
+.features-image{display: flex;
+    flex-direction: column;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
 }
 .features-image img{
-    margin-left: 0px;
-    width: 100%;
-    height: fit-content;
+   max-width: 100%;
+  margin: 0 auto;
 }
 .features-image .btn{
     margin-top: 10px;
     margin-left: 2px;
+     width: fit-content;
     
 }
 .all-cards,.all-sponsors{
