@@ -228,7 +228,7 @@ margin-right: 10px;
 .feauture-image img{
    width: 100%;
     object-fit: cover;
-    padding: 30px;
+
     
 }
 
@@ -284,7 +284,12 @@ margin-right: 10px;
 .banner-image{
     padding: 20px;
 }
-.more-feature{flex-direction: column;}
+.feauture-image img{
+    padding: 20px;
+}
+.more-feature{flex-direction: column;
+}
+
 .features-image{display: flex;
     flex-direction: column;
     padding-right: 0px;
@@ -292,7 +297,7 @@ margin-right: 10px;
     align-items: center;
 }
 .features-image img{
-   max-width: 100%;
+   max-width: 75%;
   margin: 0 auto;
 }
 .features-image .btn{
